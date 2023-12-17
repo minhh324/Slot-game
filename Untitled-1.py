@@ -11,4 +11,4 @@ def is_anagram(s1, s2):
     else:
         matches = False
         print(matches)
-is_anagram("The check is in the mail!", "Claim \"Heck,I sent it(heh)\"")
+is_anagram("The check is in the mail!", "Claim \"Heck,I sent ist(heh)\"")
