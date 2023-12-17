@@ -1,6 +1,10 @@
 import re
 
 def is_anagram(s1, s2):
+    '''
+    Checks if string is an anagram or not.
+
+    '''
     matches = True
     res1 = ''.join(sorted(s1.lower()))
     res2 = ''.join(sorted(s2.lower()))
