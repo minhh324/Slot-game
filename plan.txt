@@ -1,0 +1,8 @@
+Ethan: Design play and bet buttons
+    Deadline: Dec 22nd
+-Discuss and design the slot system
+    Deadline: Dec 23rd -Dec 26th
+-Design apperance
+    Deadline: Dec 27th - Dec 28th
+-Login Page
+    Deadline: Dec 28th
