@@ -7,5 +7,6 @@ This project is a virtual slot machine game. Users can place bets and spin the r
 - Multiple betting options
 - Variety of winning combinations
 - Engaging user interface
+- Win big prizes
 
 
