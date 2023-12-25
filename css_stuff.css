@@ -1,15 +1,19 @@
 #outline {
     border: 3px solid black;
-    width: 50%;
+    width: 60%;
     height: 650px;
     margin: auto;
 
 }
 
+body{
+    background-color: antiquewhite;
+}
+
 .row {
-    width: 500px;
+    width: 700px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #spinny {
