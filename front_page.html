@@ -24,8 +24,8 @@
     <div>
         
     </div>
-    <div id="buttons">
-        <input type="number" id="betInput" placeholder="Enter your bet!">
+    <div id="buttons"> /*this oninput thingy below doesn't allow '-' char n stuff, could change later*/
+        <input type="number" min="0" oninput="validity.valid||(value='');" id="betInput" placeholder="Enter your bet!">
         <button id="bet_button">Bet</button>
         <button id="spin_button">Spin</button>
     </div>
