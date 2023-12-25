@@ -5,12 +5,10 @@
     margin: auto;
 
 }
-html{
-    height: 100%;
-}
 
 body{
     background-color: antiquewhite;
+    min-width: 1280px;
 }
 
 .row {
