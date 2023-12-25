@@ -39,18 +39,11 @@
     font-family: monospace;
 }
 
-#bet_button {
-    background-color:grey;
-    border:none;
-    height: 70px;
-    width: 90px;
-    color: white;
+button:hover{
+    color: red;
 }
-
-#spin_button {
-    background-color: grey;
-    border:none;
-    height: 70px;
-    width: 90px;
-    color: white;
+button{
+    background-color: aquamarine;
+    height: 60px;
+    width: 70px;
 }
