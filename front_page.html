@@ -14,35 +14,35 @@
     <h1 class="text-center m-1"> Slot Machine</h1>
     <div id="outline">
 
-        <div class="container">
-            <div class="row">
-                <div id="spinny" class="col">
-                    <img src="symbols/Dog.png" alt="Dog">
-                    <img src="symbols/Eagle.png" alt="Eagle">
-                    <img src="symbols/Fish.png" alt="Fish">
-                    <img src="symbols/Lizard.png" alt="Lizard">
-                    <img src="symbols/monkey.png" alt="monkey">
-                    <img src="symbols/Tiger.png" alt="Tiger">
-                    <img src="symbols/Dinosaur.png" alt="Dinosaur">
-                </div>
-                <div id="spinny2" class="col">
-                    <img src="symbols/Eagle.png" alt="Eagle">
-                    <img src="symbols/Fish.png" alt="Fish">
-                    <img src="symbols/Lizard.png" alt="Lizard">
-                    <img src="symbols/monkey.png" alt="monkey">
-                    <img src="symbols/Tiger.png" alt="Tiger">
-                    <img src="symbols/Dinosaur.png" alt="Dinosaur">
-                    <img src="symbols/Dog.png" alt="Dog">
-                </div>
-                <div id="spinny3" class="col">
-                    <img src="symbols/Fish.png" alt="Fish">
-                    <img src="symbols/Lizard.png" alt="Lizard">
-                    <img src="symbols/monkey.png" alt="monkey">
-                    <img src="symbols/Tiger.png" alt="Tiger">
-                    <img src="symbols/Dinosaur.png" alt="Dinosaur">
-                    <img src="symbols/Dog.png" alt="Dog">
-                    <img src="symbols/Eagle.png" alt="Eagle">
-                </div>
+        <div class="slot">
+            <div class="screen">
+                <ul class="reels">
+                    <li class="reel" id="dog"><img src="symbols/Dog.png" alt="Dog"></li>
+                    <li class="reel" id="eagle"><img src="symbols/Eagle.png" alt="Eagle"></li>
+                    <li class="reel" id="fish"><img src="symbols/Fish.png" alt="Fish"></li>
+                    <li class="reel" id="lizard"><img src="symbols/Lizard.png" alt="Lizard"></li>
+                    <li class="reel" id="monkey"><img src="symbols/monkey.png" alt="monkey"></li>
+                    <li class="reel" id="tiger"><img src="symbols/Tiger.png" alt="Tiger"></li>
+                    <li class="reel" id="dinosaur"><img src="symbols/Dinosaur.png" alt="Dinosaur"></li>
+                </ul>
+                <ul class="reels">
+                    <li class="reel" id="eagle"><img src="symbols/Eagle.png" alt="Eagle"></li>
+                    <li class="reel" id="fish"><img src="symbols/Fish.png" alt="Fish"></li>
+                    <li class="reel" id="lizard"><img src="symbols/Lizard.png" alt="Lizard"></li>
+                    <li class="reel" id="monkey"><img src="symbols/monkey.png" alt="monkey"></li>
+                    <li class="reel" id="tiger"><img src="symbols/Tiger.png" alt="Tiger"></li>
+                    <li class="reel" id="dinosaur"><img src="symbols/Dinosaur.png" alt="Dinosaur"></li>
+                    <li class="reel" id="dog"><img src="symbols/Dog.png" alt="Dog"></li>
+                </ul>
+                <ul class="reels">
+                    <li class="reel" id="fish"><img src="symbols/Fish.png" alt="Fish"></li>
+                    <li class="reel" id="lizard"><img src="symbols/Lizard.png" alt="Lizard"></li>
+                    <li class="reel" id="monkey"><img src="symbols/monkey.png" alt="monkey"></li>
+                    <li class="reel" id="tiger"><img src="symbols/Tiger.png" alt="Tiger"></li>
+                    <li class="reel" id="dinosaur"><img src="symbols/Dinosaur.png" alt="Dinosaur"></li>
+                    <li class="reel" id="dog"><img src="symbols/Dog.png" alt="Dog"></li>
+                    <li class="reel" id="eagle"><img src="symbols/Eagle.png" alt="Eagle"></li>
+                </ul>
             </div>
         </div>
 
@@ -52,9 +52,9 @@
     </div>
     <div id="buttons">
         <input type="number" min="0" oninput="validity.valid||(value='');" id="betInput" placeholder="Enter your bet!">
-        <button id="bet_button">Bet</button>
         <button id="spin_button">Spin</button>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <py-script src="system.py"></py-script>
 </body>
 </head>
