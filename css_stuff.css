@@ -1,7 +1,6 @@
 #outline {
-    border: 3px solid black;
     width: 60%;
-    height: 650px;
+    height: 630px;
     margin: auto;
 
 }
@@ -19,18 +18,19 @@ body{
 
 #spinny {
     border: 4px solid black;
-    height: 450px;
 }
 
 #spinny2 {
     border: 4px solid black;
-    height: 450px;
     
 }
 
 #spinny3 {
     border: 4px solid black;
-    height: 450px;
+}
+
+#spinny, #spinny2, #spinny3 {
+    height: 100%; 
 }
 
 #buttons {
@@ -51,7 +51,12 @@ button{
     width: 70px;
 }
 
-img{
-    margin-left:55px;
-    height: 100px;
+.col img{
+    height: 70px;
+    width:100%;
+    object-fit: contain;
 }
+
+
+
+
