@@ -13,9 +13,8 @@
 <body>
     <h1 class="text-center m-1"> Slot Machine</h1>
     <div id="outline">
-
-        <div class="slot">
-            <div class="screen">
+        <div id="slot">
+            <div id="screen">
                 <ul class="reels">
                     <li class="reel" id="dog"><img src="symbols/Dog.png" alt="Dog"></li>
                     <li class="reel" id="eagle"><img src="symbols/Eagle.png" alt="Eagle"></li>
@@ -53,10 +52,10 @@
     <div id="buttons">
         <input type="number" min="0" oninput="validity.valid||(value='');" id="betInput" placeholder="Enter your bet!">
         <button id="spin_button">Spin</button>
+        <button class="stop_button">Stop</button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="system2.js"></script>
-    <py-script src="system.py"></py-script>
 </body>
 </head>
 
